@@ -24,3 +24,19 @@ pip install -r requirements.txt
 python3 app.py
 ```
 4. Open the browser and go to `http://127.0.0.1:7861`
+
+![example](assets/screenshot.png)
+
+## Future Scope
+The following things can be done to improve the chatbot:
+1. Reciprocal Rank Fusion to re-rank search results can be introduced, to improve the search results. `https://arxiv.org/pdf/2201.01614.pdf` this paper can be referred to.
+2. Functionalty to add other data types can be introduced.
+
+## References
+1. [Embedchain](https://embedchain.ai/)
+2. [LangChain](https://langchain.ai/)
+3. [Gradio](https://gradio.app/)
+4. [Huggingface](https://huggingface.co/)
+5. [PARM](https://arxiv.org/pdf/2201.01614.pdf)
+6. [RAG-Fusion](https://arxiv.org/pdf/2402.03367.pdf)
+
