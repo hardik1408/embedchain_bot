@@ -25,8 +25,8 @@ def chat(message, history):
         yield "I have gathered necessary information , now you may ask questions."
         # i = 1
     
-    # new_message = generate_queries(message)
-    resp=app.query(message)
+    new_message = generate_queries(message)
+    resp=app.query(new_message)
     answer_text = resp.split("Answer:")[1].strip()
     yield answer_text
 
