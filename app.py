@@ -4,9 +4,11 @@ from dotenv import load_dotenv
 
 load_dotenv() 
 
+# defining the models
 app = App.from_config(config_path="config.yaml")
 app1 = App.from_config(config_path="config.yaml") 
 
+# rag-fusion inspired prompt
 def generate_queries(message):
     query="""You are a helpful assistant that generates multiple search queries based on a single input query.
             Generate multiple search queries related to: {message}
