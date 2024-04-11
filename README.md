@@ -7,3 +7,5 @@ It contains a small UI developed with Gradio.
 ## RAG-Fusion
 This project uses RAG-Fusion, a search methodology that aims to bridge the gap between traditional search paradigms and the multifaceted dimensions of human queries.
 The system starts by generating multiple queries from a user's initial query using the model initialized before.
+
+[rag-fusion](assets/fusion.png)
